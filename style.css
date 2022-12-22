@@ -9,11 +9,11 @@ body {
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 50px;
     justify-content: center; 
     margin-top: 0px;
+    padding-top: 0px;
     margin-left: 10px;
-
 }
 
 .containerImagem {
@@ -23,8 +23,8 @@ h1 {
 }
 
 img {
-    height:16%;
-    width:16%;
+    height:17%;
+    width:17%;
 }
 
 input {
@@ -33,7 +33,7 @@ input {
     background-color:#34206f;
     border-radius: 25px;
     border-style: dashed;
-    border-color: #d02383 ;
+    border-color: #d02383;
     font-family: 'Courier New', Courier, monospace;
     color:white;
     font-size:15px;
@@ -47,7 +47,7 @@ input {
 }
 
 .containerEsquerdo {
-    flex-direction: row ;
+    flex-direction: column ;
     text-align: center;
     padding: 15px;
 }
@@ -64,10 +64,35 @@ input {
 
 .botaoDc {
     align-items: center;
-
+    background: #d02383;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ #botaoCopiar {
+    align-items: center;
+    background: white;
+    color:#0268e2;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
 
+ .containerRodape {
+    display: flex;
+    justify-content: center;
+ }
+#textoRodape {
+   
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+
+}
 
 
 
