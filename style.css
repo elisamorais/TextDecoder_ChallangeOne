@@ -1,0 +1,97 @@
+body {
+    background-color:#3a3a3f;
+}
+
+.containerPrincipal {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 70px;
+    justify-content: center; 
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+
+.containerImagem {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 50px;
+}
+
+img {
+    height:16%;
+    width:16%;
+}
+
+input {
+    width:350px;
+    height: 175px;
+    background-color:#34206f;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #d02383 ;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size:15px;
+}
+
+#textoInstrucao {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+    font-size: 14px;
+}
+
+.containerEsquerdo {
+    flex-direction: row ;
+    text-align: center;
+    padding: 15px;
+}
+
+.containerDireito {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.containerBotoes {
+    display: flex;
+    flex-direction: row;    
+}
+
+.botaoDc {
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.containerRodape {
+
+}
+
+/*
+ #e1aa01
+ #4adfa8
+ #8e98a6
+ #3a3a3f
+
+ #0268e2
+ #e5f0f3
+ #d02383
+ #34206f
+
+*/

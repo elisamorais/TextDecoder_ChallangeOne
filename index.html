@@ -9,26 +9,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Text Decoder</h1>        
-    </header>
-    <div class="containerEsquerdo"> 
-        <input type="text" id="texto">
-        <placeholder><p>Digite seu texto apenas com letras minúsculas e sem caracteres especiais.</p></placeholder>
-    </div>
-    <div>
-        <img src=".image.gif"/>
-        <input type="text" id="mensagem">
-    </div>
-    <div>
-        <button>Criptografar</button>
-        <button>Descriptografar</button>
-        <button>Copiar</button>
+    <div class="containerPrincipal">
+        <header>
+            <h1>Text Decoder</h1>              
+        </header>
     </div>
 
-    <footer>
-        <p class="copyright">&copy; Copyrigth Elisa Morais (Web Developer) - 2022</p>
-    </footer>
+    <div class="containerImagem">
+        <img src="hero.png"/>        
+    </div>
     
+
+    
+    
+    <div class="containerEsquerdo"> 
+        <input type="text" id="texto">
+        <input type="text" id="mensagem">
+        <placeholder><p id="textoInstrucao">Digite seu texto apenas com letras minúsculas e sem caracteres especiais.</p></placeholder>
+    </div>
+    <div class="containerBotoes">
+        <button class="botaoDc">Criptografar</button>
+        <button class="botaoDc">Descriptografar</button>
+        <button id="botaoCopiar">Copiar</button>
+    </div>
+    
+    <div class="containerRodape">
+        <footer>
+            <p class="copyright">&copy; Copyrigth Elisa Morais (Web Developer) - 2022</p>
+        </footer>
+        </div>
+    <script src="./main.js"></script>
 </body>
 </html>
