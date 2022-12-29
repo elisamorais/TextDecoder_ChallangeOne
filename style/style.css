@@ -27,7 +27,7 @@ img {
     width:17%;
 }
 
-input {
+textArea {
     width:350px;
     height: 175px;
     background-color:#34206f;
@@ -72,11 +72,31 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
- #botaoCopiar {
+#botaoCripto {
     align-items: center;
     background: white;
     color:#0268e2;
-    border-radius: 5px;
+    border-radius: 5px 5px 5px 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#botaoDescripto {
+    align-items: center;
+    background: white;
+    color:#0268e2;
+    border-radius: 5px 5px 5px 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#botaoCopiar {
+    align-items: center;
+    background: #d02383;
+    color:white;
+    border-radius: 5px 5px 5px 0px;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -86,37 +106,9 @@ input {
     display: flex;
     justify-content: center;
  }
-#textoRodape {
-   
+ 
+#textoRodape {   
     color: white;
     font-size: 11px;
     font-weight: lighter;
-
 }
-
-
-
-
-
-
-
-
-
-/*
-
-.containerRodape {
-
-}
-
-/*
- #e1aa01
- #4adfa8
- #8e98a6
- #3a3a3f
-
- #0268e2
- #e5f0f3
- #d02383
- #34206f
-
-*/
